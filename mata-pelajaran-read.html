@@ -53,18 +53,60 @@
                             <i class="fa-solid fa-house me-1"></i> Dasbor                            
                         </a>
 
-                        <a href="siswa-read.html" class="list-group-item list-group-item-action d-flex justify-content-between active">
+                        <a href="mata-pelajaran-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
                             <div>
                                 <i class="fa-solid fa-graduation-cap me-1"></i> Siswa
                             </div>  
-                            <span class="badge bg-light text-primary">11</span>                         
+                            <span class="badge bg-primary">11</span>                         
                         </a>
 
-                        <a href="tutor-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                        <a href="mata-pelajaran-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
                             <div>
                                 <i class="fa-solid fa-user-tie me-1"></i> Tutor
                             </div>  
                             <span class="badge bg-primary">12</span>                          
+                        </a>
+                        
+                        <a href="mata-pelajaran-read.html" class="list-group-item list-group-item-action d-flex justify-content-between active">
+                            <div>
+                                <i class="fa-solid fa-book-open-reader"></i> Mata Pelajaran
+                            </div>  
+                            <span class="badge bg-light text-primary">9</span>                         
+                        </a>
+
+                        <a href="mata-pelajaran-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-people-group"></i> Ekskul
+                            </div>  
+                            <span class="badge bg-primary">11</span>                         
+                        </a>
+
+                        <a href="mata-pelajaran-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-laptop"></i> Laptop
+                            </div>  
+                            <span class="badge bg-primary">11</span>                         
+                        </a>
+
+                        <a href="mata-pelajaran-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-book"></i> Buku
+                            </div>  
+                            <span class="badge bg-primary">11</span>                         
+                        </a>
+
+                        <a href="siswa-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-building-columns"></i> Universitas
+                            </div>  
+                            <span class="badge bg-primary">11</span>                         
+                        </a>
+
+                        <a href="mata-pelajaran-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
+                            <div>
+                                <i class="fa-solid fa-book-bookmark"></i> Jurusan
+                            </div>  
+                            <span class="badge bg-primary">11</span>                         
                         </a>
 
                         <a href="login.html" class="list-group-item list-group-item-action">
@@ -83,10 +125,10 @@
 
                         <div class="card-header d-flex justify-content-between">
 
-                            <h3>Read <span class="fw-bold"><i class="fa-solid fa-graduation-cap"></i> Siswa</span></h3>
+                            <h3>Read <span class="fw-bold"><i class="fa-solid fa-book-open-reader"></i> Mata Pelajaran</span></h3>
 
                             <div>
-                                <a href="siswa-create.html" class="btn btn-primary"><i class="fa-solid fa-plus-square me-1"></i> Create</a>
+                                <a href="mata-pelajaran-create.html" class="btn btn-primary"><i class="fa-solid fa-plus-square me-1"></i> Create</a>
                             </div>
 
                         </div>
@@ -97,76 +139,100 @@
                                 <thead>
                                     <tr>
                                         <th>No</th>
-                                        <th>Gambar</th>
-                                        <th>Nama Lengkap</th>
-                                        <th>Alamat Email</th>
+                                        <th>Subject</th>
+                                        <th>Tutor</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
+                                        <td>Information Literacy</td>
+                                        <td>Tisha Rumbewas & Brian Unani</td>
                                         <td>
-                                            <img src="./assets/img/user-empty.png" class="img img-fluid img-thumbnail" alt="Gambar" width="100">
-                                        </td>
-                                        <td>Beri Pahabol</td>
-                                        <td>b.pahabol@mail.com</td>
-                                        <td>
-                                            <a href="siswa-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="siswa-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="siswa-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
+                                            <a href="mata-pelajaran-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="mata-pelajaran-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="mata-pelajaran-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
+                                        <td>Math</td>
+                                        <td>Elisabeth Jakarimilena & Janzen Faidiban</td>
                                         <td>
-                                            <img src="./assets/img/user-empty.png" class="img img-fluid img-thumbnail" alt="Gambar" width="100">
-                                        </td>
-                                        <td>Marina Rumy</td>
-                                        <td>m.rumy@mail.com</td>
-                                        <td>
-                                            <a href="siswa-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="siswa-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="siswa-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
+                                            <a href="mata-pelajaran-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="mata-pelajaran-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="mata-pelajaran-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
+                                        <td>Academic Discussion</td>
+                                        <td>Abrison Nenepath</td>
                                         <td>
-                                            <img src="./assets/img/user-empty.png" class="img img-fluid img-thumbnail" alt="Gambar" width="100">
-                                        </td>
-                                        <td>Gipson Suu</td>
-                                        <td>gipson.suu@mail.com</td>
-                                        <td>
-                                            <a href="siswa-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="siswa-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="siswa-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
+                                            <a href="mata-pelajaran-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="mata-pelajaran-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="mata-pelajaran-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
+                                        <td>Academic Reading</td>
+                                        <td>Dina Danomira</td>
                                         <td>
-                                            <img src="./assets/img/user-empty.png" class="img img-fluid img-thumbnail" alt="Gambar" width="100">
-                                        </td>
-                                        <td>Aftania Waromi</td>
-                                        <td>a.waromi@mail.com</td>
-                                        <td>
-                                            <a href="siswa-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="siswa-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="siswa-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
+                                            <a href="mata-pelajaran-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="mata-pelajaran-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="mata-pelajaran-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
+                                        <td>Academic Listening</td>
+                                        <td>Sonai Morin</td>
                                         <td>
-                                            <img src="./assets/img/user-empty.png" class="img img-fluid img-thumbnail" alt="Gambar" width="100">
+                                            <a href="mata-pelajaran-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="mata-pelajaran-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="mata-pelajaran-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
                                         </td>
-                                        <td>Ezra Mofu</td>
-                                        <td>e.mofu@mail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Computer Literacy</td>
+                                        <td>Emma Ronsumbre & Janzen Faidiban</td>
                                         <td>
-                                            <a href="siswa-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="siswa-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="siswa-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
+                                            <a href="mata-pelajaran-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="mata-pelajaran-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="mata-pelajaran-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Vocabulary Academic</td>
+                                        <td>Lucia Runggeari & Ben Patty</td>
+                                        <td>
+                                            <a href="mata-pelajaran-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="mata-pelajaran-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="mata-pelajaran-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Speaking</td>
+                                        <td>Kristo Pizaro</td>
+                                        <td>
+                                            <a href="mata-pelajaran-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="mata-pelajaran-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="mata-pelajaran-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Cross Cultural Study</td>
+                                        <td>Piche G</td>
+                                        <td>
+                                            <a href="mata-pelajaran-read-detail.html" class="btn btn-sm btn-outline-dark"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="mata-pelajaran-update.html" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="mata-pelajaran-delete.html" class="btn btn-sm btn-outline-danger" onClick="return confirm('Anda yakin ingin hapus?')"><i class="fa-solid fa-trash"></i></a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -194,7 +260,7 @@
                 Copyright &copy; 2022 - <a href="https://sacode.web.id" class="text-decoration-none link-secondary fw-bold" target="_blank">SaCode CRUD Template</a>
             </div>
             <div>
-                Designed by <a href="https://github.com/janzenfaidiban" class="text-decoration-none link-secondary fw-bold" target="_blank">@janzenfaidiban</a>
+                Designed by <a href="https://github.com/aftaniawaromi" class="text-decoration-none link-secondary fw-bold" target="_blank">@aftaniawaromi</a>
             </div>
         </div>
     </footer>
